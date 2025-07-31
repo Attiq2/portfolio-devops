@@ -3,13 +3,13 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('docker-hub-creds') // Jenkins credentials ID
-        IMAGE_NAME = "yourdockerhubusername/portfolio"
+        IMAGE_NAME = "attiq1124/portfolio"
     }
 
     stages {
         stage('Clone Code') {
             steps {
-                git 'https://github.com/yourusername/portfolio-devops.git'
+                git 'https://github.com/Attiq2/portfolio-devops.git'
             }
         }
 

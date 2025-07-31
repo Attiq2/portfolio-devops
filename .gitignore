@@ -1,0 +1,22 @@
+# OS/IDE stuff
+.DS_Store
+*.log
+*.swp
+
+# Docker
+*.tar
+.env
+.env.*
+
+# Kubernetes configs (optional if they contain secrets)
+*.kube/
+
+# Secrets
+*.pem
+secrets.txt
+
+# Node/React if used
+node_modules/
+dist/
+build/
+

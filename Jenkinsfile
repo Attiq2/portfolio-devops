@@ -7,11 +7,6 @@ pipeline {
     }
 
     stages {
-        stage('Clone Code') {
-            steps {
-                git 'https://github.com/Attiq2/portfolio-devops.git'
-            }
-        }
 
         stage('Build Docker Image') {
             steps {
